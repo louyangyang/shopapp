@@ -1,0 +1,215 @@
+.box {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.car-top {
+  display: flex;
+  width: 100%;
+  height: 0.55rem;
+  font-size: 0.24rem;
+  font-weight: 700;
+  padding: 0.15rem;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #3b3b3b;
+  align-items: center;
+  justify-content: space-between;
+}
+.car-top span svg {
+  position: relative;
+  top: 0.05rem;
+  font-size: 0.4rem;
+}
+.car-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+.car-login p {
+  display: inline-block;
+  height: 1rem;
+  margin-top: 0.1rem;
+}
+.car-login p span {
+  color: #24acaa;
+  font-size: 0.14rem;
+}
+.car-login p button {
+  height: 0.34rem;
+  width: 0.7rem;
+  color: #fff;
+  background-color: red;
+  font-size: 0.16rem;
+  list-style: none;
+  border: 0;
+}
+.car-login span {
+  font-size: 0.15rem;
+  margin-bottom: 0.14rem;
+}
+.car-login span svg {
+  font-size: 0.6rem;
+  margin-bottom: 0.2rem;
+}
+.car-login button {
+  width: 1.7rem;
+  height: 0.32rem;
+  font-size: 0.16rem;
+  border: 0;
+  border-radius: 0.05rem;
+  color: #fff;
+  background-color: #3b3b3b;
+  margin-bottom: 0.8rem;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  margin-top: 8px;
+}
+.checkout {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.addshoping {
+  width: 330px;
+}
+.addshoping p {
+  font-size: 14px;
+  margin-top: 0.1rem;
+}
+.addshoping .addshoping-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.addshoping .addshoping-1 .left {
+  flex: 1;
+}
+.addshoping .addshoping-1 .left img {
+  height: 88px;
+  width: 88px;
+  border: 1px solid #e1dede;
+}
+.addshoping .addshoping-1 .right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.addshoping .addshoping-1 .right .right-2 {
+  display: flex;
+  line-height: 10px;
+}
+.addshoping .addshoping-1 .right .right-2 > div:nth-child(1) {
+  flex: 4;
+}
+.addshoping .addshoping-1 .right .right-2 > div:nth-child(2) {
+  flex: 2;
+}
+.addshoping .addshoping-1 .right .right-2 > div:nth-child(2) span {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  text-align: center;
+}
+.addshoping .addshoping-1 .right .right-2 button {
+  height: 24px;
+  width: 24px;
+  margin-top: 5px;
+}
+.Shoping {
+  padding: 0 0.1rem;
+}
+.Shoping p {
+  margin-left: 1.35rem;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.Shoping ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.Shoping ul li {
+  padding: 0 0.01rem;
+  list-style: none;
+  width: 1.7rem;
+  height: 100%;
+  margin-top: 0.1rem;
+  line-height: 0.03rem;
+}
+.Shoping ul li img {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 0.02rem;
+}
+.Shoping ul li:last-child {
+  margin-bottom: 100px;
+}
+.Shoping .shopli {
+  margin: 0.01rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Shoping .shopli > p {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 0.12rem;
+  line-height: 0.12rem;
+  font-size: 0.1rem;
+  margin: 0.02rem 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.Shoping .shopli span {
+  font-size: 0.14rem;
+  margin: 0.01rem 0;
+}
+.shop-foot {
+  position: fixed;
+  background-color: #fff;
+  height: 62px;
+  width: 100%;
+  bottom: 0px;
+  z-index: 111111111;
+  padding: 20px 20px 20px 20px;
+}
+.shop-foot-1 {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 300px;
+  position: relative;
+  bottom: 40px;
+  left: 70px;
+}
+.shop-foot-1 p {
+  flex: 4;
+  text-align: center;
+  line-height: 20px;
+}
+.shop-foot-1 p span {
+  color: red;
+  font-size: 17px;
+  font-weight: 700;
+}
+.shop-foot-1 button {
+  border-radius: 30px;
+  flex: 4;
+  width: 60px;
+  height: 50px;
+  outline: none;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  background-color: #f11827;
+}

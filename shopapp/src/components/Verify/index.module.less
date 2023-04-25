@@ -1,0 +1,55 @@
+.sect {
+    height: 1.15rem;
+    margin-top: 0.2rem;
+
+   
+    div {
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            font-size: 0.15rem;
+            color: red;
+            cursor: pointer;
+            svg{
+                width: 0.15rem !important;
+                height: 0.15rem !important;
+                stroke:   red ;
+            }
+        }
+    }
+
+    ul {
+        display: flex;
+        margin-top: 0.2rem;
+        list-style: none;
+        justify-content: space-between;
+
+        li {
+            width: 0.72rem;
+            height: 0.72rem;
+            border: 0.01rem solid #e3e3e3;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .zero {
+            transform: rotate(0deg);
+        }
+
+        .ninety {
+            transform: rotate(90deg);
+        }
+
+        .dora {
+            transform: rotate(180deg);
+        }
+
+        .seven {
+            transform: rotate(270deg);
+        }
+    }
+}

@@ -1,0 +1,254 @@
+.box{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+//购物车头部
+.car-top {
+    display: flex;
+    width: 100%;
+    height: .55rem;
+    font-size: .24rem;
+    font-weight: 700;
+    padding: .15rem;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #3b3b3b;
+    align-items: center;
+    justify-content: space-between;
+    span{
+        svg {
+            position: relative;
+            top: .05rem;
+            font-size: .4rem;
+    
+        }
+    }
+    
+}
+// 购物登录
+.car-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ background-color:#f0f0f0;
+    p{
+        display:inline-block;
+        height: 1rem;
+     margin-top: .1rem;
+
+    span{
+        color: #24acaa;
+        font-size:.14rem;
+       
+    }
+
+    button{
+        height: .34rem;
+        width: .7rem;
+       color:#fff;
+       background-color: red;
+       font-size: .16rem;
+       list-style: none;
+       border: 0;
+      }
+    }
+    span{
+ 
+        svg{
+            font-size: .6rem;
+            margin-bottom: .2rem;
+        }
+        font-size:.15rem ;
+        margin-bottom: .14rem;
+      
+    }
+    button{
+        width: 1.7rem;
+        height: .32rem;
+        font-size: .16rem;
+        border:0;
+     border-radius: .05rem;
+        color: #fff;
+        background-color: #3b3b3b;
+        margin-bottom: .8rem;
+    }
+}
+ul{
+  list-style: none;
+  li{
+    margin-top: 8px;
+    
+  }
+}
+.checkout{
+  padding: 10px;
+  box-sizing: border-box;
+}
+.addshoping{
+
+width: 330px;
+
+p{
+  font-size: 14px;
+  margin-top: .1rem;
+}
+.addshoping-1{
+
+display: flex;
+  justify-content: space-between;
+  width: 100%;
+  .left{
+  flex: 1;
+
+
+    img{
+      height: 88px;
+      width: 88px;
+      border: 1px solid rgb(225, 222, 222);
+    }
+
+  }
+  .right{
+  flex: 2;
+
+    display: flex;
+    
+    flex-direction: column;
+.right-2{
+  display: flex;
+  line-height: 10px;
+
+>div:nth-child(1){
+  flex: 4;
+
+}
+>div:nth-child(2){
+  flex: 2;
+span{
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  text-align: center;
+}
+}
+button{
+  height: 24px;
+  width: 24px;
+  margin-top: 5px;
+}
+}
+  }
+
+}
+  
+}
+// 底部
+.Shoping {
+    padding: 0 0.1rem;
+    p{
+      margin-left:1.35rem ;
+      margin-top: 30px;
+      font-size: 20px;
+    }
+    ul {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      li {
+        padding: 0 0.01rem;
+        list-style: none;
+        // width: 254px;
+        width: 1.7rem;
+        height: 100%;
+        // height: 314px;
+        margin-top: 0.1rem;
+        // border: 1px solid #a39f9f;
+        line-height: 0.03rem;
+
+        img {
+          width: 100%;
+          display: inline-block;
+          margin-bottom: 0.02rem;
+        }
+      }
+      li:last-child {
+        margin-bottom: 100px;
+
+      }
+    }
+
+    .shopli {
+      // line-height: 0.03rem;
+      // height: 0.05rem;
+      margin: 0.01rem 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      > p {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 0.12rem;
+        line-height: 0.12rem;
+        // border: 1px solid #000;
+
+        font-size: 0.1rem;
+        margin: 0.02rem 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      span {
+        // line-height: 0.03rem;
+        font-size: 0.14rem;
+        margin: 0.01rem 0;
+      }
+    }
+  }
+  .shop-foot{
+    position: fixed;
+    background-color:#fff;
+    height: 62px;
+    width: 100%;
+    bottom: 0px;
+    z-index:111111111;
+    padding: 20px 20px 20px 20px;
+    
+  }
+  .shop-foot-1{
+    display: flex;
+    align-items:center;
+      height: 60px;
+      width: 300px;
+      position: relative;
+      bottom: 40px;
+      left: 70px;
+
+      p{
+       flex: 4;
+       text-align: center;
+       line-height: 20px;
+       span{
+        color: red;
+        font-size: 17px;
+        font-weight:700;
+       }
+      }
+       button{
+        border-radius: 30px;
+        flex:4;
+        width: 60px;
+        height: 50px;
+        outline: none;
+        border: 0;
+        color:#fff;
+        font-size: 16px;
+        background-color:#f11827 ;
+      }
+    }
